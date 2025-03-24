@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: url(icon/pexels-pixabay-209831.jpg);
+    width:100%;
+    min-height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(14px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width:97vw;
+}
+
+.box{
+    height: 27rem;
+    width: 20rem;
+    align-items: center;
+    background-color: rgb(92, 93, 94);
+    border-radius: 20px;
+    background: linear-gradient(rgb(159, 155, 155),rgba(44, 42, 42, 0.836));
+    padding: 30px 20px 30px 20px;
+    
+}
+
+.search{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    padding: 4px 10px;
+    background-color:grey;
+} 
+
+.search button{
+    height:30px;
+    width: 30px;
+    padding: 7px;
+    background: none;
+    border: none;
+    outline: none;
+    
+}
+
+
+.search input{
+    width:100%;
+    border: 0;
+    outline: 0;
+    flex: 1;
+    background-color: grey;
+    color:aliceblue;
+    padding: 1px;
+    z-index: 10;
+    font-size:18px;
+} 
+
+.search ::placeholder{
+   color:white;
+
+}
+
+
+.summary{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 30px 0px;
+}
+
+.clouds{
+    width: 140px;
+    height: 130px;
+}
+
+.temp{
+    text-align: end;
+    font: 3em sans-serif;
+}
+
+.textInfo{
+    text-align: end;
+    font: 2em sans-serif;
+    padding-top: 10px;
+}
+
+
+.weather-info{
+    /* display: flex;
+    flex-direction: column; */
+    display: none;
+    padding: 8px;
+    margin-top: 30px;
+}
+
+.location{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font: 1.4em sans-serif;
+    color: aliceblue;
+}
+
+.search button{
+    cursor: pointer;
+}
+
+.conditions{
+    padding: 1px 0px 20px 0px ;
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.info, .humid, .wind{
+    color: aliceblue;
+    font: 1.3em sans-serif;
+    margin-top: 4px;
+} 
+
+
+.searchMsg{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
+}
+
+.searchMsg img{
+    height: 180px;
+    width: 200px;
+    margin-top: 40px;
+    padding-left: 32px;
+}
+
+.searchMsg div{
+    color: aliceblue;
+    font: 1em sans-serif;
+    font-size: 18px;
+}
+.txt{
+    font-size: 17px;
+    font: 1em sans-serif;
+}

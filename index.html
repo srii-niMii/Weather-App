@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="shortcut icon" href="icon/cloudy.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box" >
+            <div class="search">
+            <input type="text" placeholder="Search City" spellcheck="false">
+            <button> <img src="icon/magnifying-glass-solid (2).svg" alt=""> </button>
+            </div>
+        
+        <div class="weather-info">
+            <div class="date">
+                <div class="location">
+                    <span> <img height="28px" src="icon/location-dot-solid.svg" alt=""> </span>
+                    <h4 class="city"> Mumbai </h4>
+                </div>
+            </div> 
+           
+        <div class="summary">
+            <img src="icon/weather.png" class="clouds">
+            <div class="summaryInfo">
+                <h1 class="temp"> 29°C</h1>
+                <h3 class="textInfo">Cloudy</h3>
+            </div>
+        </div>
+
+        <div class="conditions">
+            <div class="condItem">
+              <span id="drop"> <i class="fa-solid fa-droplet fa-xl" style="color: aliceblue;"></i></span>
+                <!-- <i class="fa-solid fa-wind fa-2xl" style="color: aliceblue;"></i> -->
+                <h5 class="info">Humidity</h5>
+                <h5 class="humid"> 44%</h5>
+            </div>
+
+            <div class="condItem">
+                  <span> <i class="fa-solid fa-wind fa-xl" style="color: aliceblue;"></i> </span>
+                  <h5 class="info">Wind Speed</h5>
+                  <h5 class="wind">44 km/h</h5>
+            </div>
+            </div>
+
+        </div>
+
+        <div class="searchMsg">
+            <img src="icon/paper.png" alt="1">
+            <div>
+                <h1>Search City</h1>
+                <h4 class="txt"> Find out the weather conditions of any city.</h4>
+            </div>
+        </div>
+        
+
+      </div>
+    </div>
+      
+
+    <script src="script.js"></script>
+</body>
+</html>
